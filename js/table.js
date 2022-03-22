@@ -6,7 +6,7 @@ function createTable() {
 function changeIframe(n, i) {
 }
 
-function select(n, i) {
+function select(n) {
 }
 
 function saveTable() {
