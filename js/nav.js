@@ -26,57 +26,13 @@ function pageList(pageNum) {//탭목록 구현
    ul.setAttribute('class', 'nav nav-tabs mr-auto');
 
    var A = document.createElement('li');
-   var B = document.createElement('li');
-   var C = document.createElement('li');
-   var D = document.createElement('li');
-
-   var E = document.createElement('li');
-   var F = document.createElement('li');
-   var G = document.createElement('li');
-   var H = document.createElement('li');
 
    A.setAttribute('class', 'nav-item');
-   B.setAttribute('class', 'nav-item');
-   C.setAttribute('class', 'nav-item');
-   D.setAttribute('class', 'nav-item');
-   E.setAttribute('class', 'nav-item');
-   F.setAttribute('class', 'nav-item');
-   G.setAttribute('class', 'nav-item');
-   H.setAttribute('class', 'nav-item');
 
-   A.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(1)'>총잡이</a>";
-   B.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(2)'>난동꾼</a>";
-   C.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(3)'>위생병</a>";
-   D.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(4)'>해결사</a>";
-
-   E.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(5)'>학살자</a>";
-   F.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(6)'>파괴자</a>";
-   G.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(7)'>드론마스터</a>";
-   H.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(8)'>방패병</a>";
+   A.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(1)'>포션</a>";
 
    if (pageNum == 1) {
-      A.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(1)'>총잡이</a>";
-   }
-   else if (pageNum == 2) {
-      B.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(2)'>난동꾼</a>";
-   }
-   else if (pageNum == 3) {
-      C.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(3)'>위생병</a>";
-   }
-   else if (pageNum == 4) {
-      D.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(4)'>해결사</a>";
-   }
-   else if (pageNum == 5) {
-      E.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(5)'>학살자</a>";
-   }
-   else if (pageNum == 6) {
-      F.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(6)'>파괴자</a>";
-   }
-   else if (pageNum == 7) {
-      G.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(7)'>드론마스터</a>";
-   }
-   else if (pageNum == 8) {
-      H.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(8)'>방패병</a>";
+      A.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(1)'>포션</a>";
    }
    else {
       alert("error! pageNum = " + pageNum);
