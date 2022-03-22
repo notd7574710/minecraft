@@ -18,7 +18,7 @@ function button() {//반응형 웹페이지 구현
    nav.appendChild(button);
 }
 
-function pageList(pageNum) {//탭목록 구현
+function pageList() {//탭목록 구현
    var div = document.createElement('div');
    div.setAttribute('class', 'collapse navbar-collapse');
    div.setAttribute('id', 'navbarNav');
@@ -46,7 +46,7 @@ function pageList(pageNum) {//탭목록 구현
 }
 //==================================================================================
 
-function createNav(pageNum) { // nav를 생성하는 함수
+function createNav() { // nav를 생성하는 함수
    nav = document.getElementById("nav");
    nav.innerHTML = "";
    nav.setAttribute('class', 'navbar navbar-expand-lg navbar-light fixed-top');
