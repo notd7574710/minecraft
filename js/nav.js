@@ -39,13 +39,6 @@ function pageList(pageNum) {//탭목록 구현
    }
 
    ul.appendChild(A);
-   ul.appendChild(B);
-   ul.appendChild(C);
-   ul.appendChild(D);
-   ul.appendChild(E);
-   ul.appendChild(F);
-   ul.appendChild(G);
-   ul.appendChild(H);
    div.appendChild(ul);
 
    var temp = document.createElement('button');
