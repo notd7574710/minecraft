@@ -28,15 +28,7 @@ function pageList(pageNum) {//탭목록 구현
    var A = document.createElement('li');
 
    A.setAttribute('class', 'nav-item');
-
-   A.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(1)'>포션</a>";
-
-   if (pageNum == 1) {
-      A.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(1)'>포션</a>";
-   }
-   else {
-      alert("error! pageNum = " + pageNum);
-   }
+   A.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav()'>포션</a>";
 
    ul.appendChild(A);
    div.appendChild(ul);
@@ -59,8 +51,7 @@ function createNav(pageNum) { // nav를 생성하는 함수
    nav.innerHTML = "";
    nav.setAttribute('class', 'navbar navbar-expand-lg navbar-light fixed-top');
 
-   nav.innerHTML += "<a class='navbar-brand' href='https://github.com/shangus1012/WWZ'>월드워Z</a>";
+   nav.innerHTML += "<a class='navbar-brand' href='https://github.com/notd7574710/minecraft'>ㅇㅇ</a>";
    button();//function
-   pageList(pageNum);//function
-   createTable(pageNum);
+   createTable();
 }
