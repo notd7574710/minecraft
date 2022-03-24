@@ -113,5 +113,5 @@ function createNav(pageNum) { // nav를 생성하는 함수
    nav.innerHTML += "<a class='navbar-brand' href='https://github.com/notd7574710/minecraft'>minecraft</a>";
    button();//function
    pageList(pageNum);//function
-   createTable(pageNum);
+   //createTable(pageNum);
 }
