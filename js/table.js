@@ -4,7 +4,7 @@ function createTable() {
     var c2 = document.getElementbyId("2");
     var c3 = document.getElementbyId("3");
     var img = document.getElementsbyClassname("img");
-    var ifr = document.getElementsbyClassname("ifr);
+    var ifr = document.getElementsbyClassname("ifr");
                                               
     for(int i=0; i<3; i++) {
         img[i].setAttribute("alt", "테스트" + i);
