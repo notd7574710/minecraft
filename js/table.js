@@ -1,3 +1,4 @@
+/*
 var classnum;
 function createTable() {
     var c1 = document.getElementbyId("1");
@@ -30,3 +31,4 @@ function help() {
         "최대 처치량 : 폭발물, 근접무기등을 포함한 모든 무기는 한 번에 처치 가능한 적의 수가 제한되어 있다.\n데미지가 아무리 높아도 최대 처치량이 2마리로 제한되어 있다면 나머지 적들은 피해를 입지 않는다."
     );
 }
+*/
