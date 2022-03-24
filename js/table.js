@@ -1,24 +1,10 @@
 var classnum;
 function createTable() {
-    loadTable();
+    
 }
 
-function changeIframe(n, i) {
-}
-
-function select(n) {
-}
-
-function saveTable() {
-}
-
-function loadTable() {
-}
-
-function incode() {
-}
-
-function decode(string) {
+function upper(str) {
+    
 }
 
 //-------------------------------------------------------------------------------------------
