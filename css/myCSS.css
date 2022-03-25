@@ -35,31 +35,21 @@ body {
 	min-height:100vh;
 }
 
-.jumbotron {
-	background-color: white !important;
-}
-
 #nav {
 	background-color: #A3C6C4 !important;
 	opacity: 0.94;
 }
 
-.tables {
-	background-color:rgba(102,0,153,0.15);
-	margin-bottom: 100px;
-	padding-top: 75px;
-	display: flex;
-}
 iframe {
 	border: none;
 	display: inline-block;
 }
-.tables table {
+table {
 	display: inline-block;
 }
 
 td {
-	background-color: white;
+	background-color: black;
 }
 
 td.clicked {
