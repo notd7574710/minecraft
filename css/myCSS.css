@@ -18,7 +18,7 @@ a.active {
 	color: black !important;
 }
 
-.container {
+container {
 	padding-top: 10px;
 }
 
@@ -50,7 +50,7 @@ body {
 	padding-top: 75px;
 	display: flex;
 }
-.tables iframe {
+iframe {
 	border: none;
 	display: inline-block;
 }
@@ -58,10 +58,10 @@ body {
 	display: inline-block;
 }
 
-td:hover {
-	background-color: rgba(255,215,0,0.2);
+td {
+	background-color: white;
 }
 
 td.clicked {
-	background-color: gold;
+	background-color: black;
 }
