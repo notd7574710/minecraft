@@ -49,10 +49,10 @@ function pageList(pageNum) {//탭목록 구현
    C.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(3)'>포션 c</a>";
    D.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(4)'>포션 d</a>";
 
-   E.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(5)'>학살자</a>";
-   F.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(6)'>파괴자</a>";
-   G.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(7)'>드론마스터</a>";
-   H.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(8)'>방패병</a>";
+   E.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(5)'>포션e</a>";
+   F.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(6)'>포션f</a>";
+   G.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(7)'>포션g</a>";
+   H.innerHTML += "<a class='nav-link' href='javascript:void(0);' onclick='createNav(8)'>포션h</a>";
 
    if (pageNum == 1) {
       A.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(1)'>포션 a</a>";
@@ -67,16 +67,16 @@ function pageList(pageNum) {//탭목록 구현
       D.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(4)'>포션 d</a>";
    }
    else if (pageNum == 5) {
-      E.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(5)'>학살자</a>";
+      E.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(5)'>포션e</a>";
    }
    else if (pageNum == 6) {
-      F.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(6)'>파괴자</a>";
+      F.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(6)'>포션f</a>";
    }
    else if (pageNum == 7) {
-      G.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(7)'>드론마스터</a>";
+      G.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(7)'>포션g</a>";
    }
    else if (pageNum == 8) {
-      H.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(8)'>방패병</a>";
+      H.innerHTML = "<a class='nav-link active' href='javascript:void(0);' onclick='createNav(8)'>포션h</a>";
    }
    else {
       alert("error! pageNum = " + pageNum);
