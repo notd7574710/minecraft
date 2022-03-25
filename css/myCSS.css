@@ -29,7 +29,8 @@ html {
 }
 body {
 	background-image: url("../media/background.jpg");
-	background-repeat: no-repeat;
+	background-repeat: 
+repeat;
 	background-position: center center;
 	background-color: green;
 	min-height:100vh;
